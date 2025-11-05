@@ -1,5 +1,6 @@
 
 import { memo, useState, useCallback } from "react";
+
 const allColors = ['red', 'green', 'blue', 'yellow', 'orange', 'black', 'white'];
 
 const shuffle = (array) => {
