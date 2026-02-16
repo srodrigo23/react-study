@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.task-style{
+  display: flex;
+  padding:10px;
+}
