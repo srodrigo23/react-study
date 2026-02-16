@@ -10,6 +10,7 @@ import UseMemoComponet from './components/efficientComponents/useMemoComponet'
 import UseCallbackComponent from './components/efficientComponents/useCallbackComponent'
 import FetchData from './hooks/fetchData'
 import MyUseEffect from './hooks/myUseEffect'
+import CustomerList from './components/customerList'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -28,9 +29,10 @@ function App() {
 
       <UseCallbackComponent/> */}
       
-      <FetchData/>
+      {/* <FetchData/> */}
 
       {/* <MyUseEffect /> */}
+      <CustomerList/>
     </>
   );
 }
