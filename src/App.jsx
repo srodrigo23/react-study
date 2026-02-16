@@ -16,21 +16,22 @@ function App() {
 
   return (
     <>
+      <Todolist />
       {/* <ClicksCounter/>
 
       <FatherComponent>
         <SiblinComponent/>
       </FatherComponent>
 
-      <Todolist/>
+      
 
       <UseMemoComponet/>
 
       <UseCallbackComponent/>
       <FetchData/> */}
-      <MyUseEffect/>
+      <MyUseEffect />
     </>
-  )
+  );
 }
 
 export default App
