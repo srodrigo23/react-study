@@ -25,7 +25,7 @@ const Filter = memo(({ onChange }) => {
 
 const UseCallbackComponent = () =>{  
   const [colors, setColors] = useState(allColors);
-  console.log(colors[0])
+  // console.log(colors[0])
 
   const handleFilter = useCallback((text) => {
     const filteredColors = allColors.filter((color) =>
@@ -37,6 +37,7 @@ const UseCallbackComponent = () =>{
 
   return (
     <div className='tutorial'>
+      <h1>USE CALLBACK COMPONENT</h1>
       <div className='align-center mb-2 flex'>
         <button onClick={() => setColors(shuffle(allColors))}>
           Shuffle

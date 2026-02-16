@@ -12,24 +12,25 @@ import FetchData from './hooks/fetchData'
 import MyUseEffect from './hooks/myUseEffect'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Todolist />
-      {/* <ClicksCounter/>
+      {/* <Todolist />
+      
+      <ClicksCounter/>
 
       <FatherComponent>
         <SiblinComponent/>
       </FatherComponent>
 
-      
-
       <UseMemoComponet/>
 
-      <UseCallbackComponent/>
-      <FetchData/> */}
-      <MyUseEffect />
+      <UseCallbackComponent/> */}
+      
+      <FetchData/>
+
+      {/* <MyUseEffect /> */}
     </>
   );
 }

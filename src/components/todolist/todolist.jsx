@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { memo } from "react";
+// import { memo } from "react";
 
 const listTodos = ['sergio', 'rodrigo', 'cardenas']
 
